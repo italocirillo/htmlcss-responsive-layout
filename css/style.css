@@ -108,8 +108,17 @@ ul{
     border: 2px solid orange;
 }
 
+/* SEZIONE BENEFITS */
+.sezione-benefits{
+    background-color: #9792e4;
+}
+.col-di6{
+    width: 100%;
+    padding: 1em;
 
-
+    /* debug */
+    border: 2px solid orange;
+}
 
 
 

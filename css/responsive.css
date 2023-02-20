@@ -10,6 +10,9 @@
     .colonna-larga{
         width: calc(100% / 3 *2);
     }
+    .col-di6{
+        width: 50%;
+    }
     
 }
 
@@ -26,8 +29,11 @@
         display: block;
     }
     .col-di2{
-        width: calc(100% / 2);
-    }  
+        width: 50%;
+    } 
+    .col-di6{
+        width: calc(100% / 3);
+    } 
 }
 
 /* LARGE DESKTOP */
@@ -39,4 +45,7 @@
     .col-di5{
         width: calc(100% / 5 - (1em / 5));
     }
+    .col-di6{
+        width: calc(100% / 6);
+    } 
 }
