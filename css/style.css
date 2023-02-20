@@ -1,3 +1,68 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* COMUNE */
+.contenitore{
+    width: 100%;
+    margin: 0 auto;
+}
+i{
+    color: white;
+    font-size: 2rem;
+}
+/* HEADER */
+header{
+    padding: 0em 1em;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    line-height: 80px;
+    background-color: #0284fd;
+}
+header .contenitore{
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    vertical-align: middle;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: none; 
+    width: 40%;
+    /* debug */
+    border: 1px solid red;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger{
+    vertical-align: middle;
+}
+
+/* DEBUG */
 body{
     background-color: wheat;
+}
+.box{
+    height: 1000px;
+    border: 2px solid orange;
+    width: 10%;
 }
