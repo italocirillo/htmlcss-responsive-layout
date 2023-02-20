@@ -147,6 +147,11 @@ ul{
     height: 500px;
     border: 2px solid orange;
 }
+
+/* FOOTER */
+footer{
+    background-color: #333333;
+}
 /* DEBUG */
 body{
     background-color: wheat;
