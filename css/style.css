@@ -15,12 +15,17 @@ img{
 .padding-verticale-1{
     padding: 1em 0em;
 }
-.padding-right-1{
-    padding-right: 1em;
+.padding-verticale-2{
+    padding: 2em 0em;
 }
-.padding-bottom-1{
-    padding-bottom: 1em;
+.padding-verticale-4{
+    padding: 4em 0em;
 }
+.padding-largo{
+    padding-top: 8em;
+    padding-bottom: 4em;
+}
+
 
 /* COMUNE */
 .contenitore{
@@ -75,7 +80,6 @@ ul{
 .riga{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 8em;
 }
 .col-di5{
     width: 100%;
