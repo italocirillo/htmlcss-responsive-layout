@@ -4,14 +4,23 @@
         width: 100%;
         margin: 0 auto;
     }
+    /* sezione 2 */
     .col-di5{
         width: calc(100% / 3 );
     }
     .colonna-larga{
         width: calc(100% / 3 *2);
     }
+    /* sezione 4 */
     .col-di6{
         width: 50%;
+    }
+    /* sezione 6 */
+    .col-di2-larga{
+        width: 80%;
+    }
+    .col-di2-stretta{
+        width: 20%;
     }
     
 }
@@ -28,9 +37,11 @@
     nav{
         display: block;
     }
+    /* sezione 3 */
     .col-di2{
         width: 50%;
     } 
+    /* sezione 5 */
     .col-di6{
         width: calc(100% / 3);
     } 
@@ -42,9 +53,11 @@
         width: 992px;
         margin: 0 auto;
     }
+    /* sezione 2 */
     .col-di5{
         width: calc(100% / 5 - (1em / 5));
     }
+    /* sezione 5 */
     .col-di6{
         width: calc(100% / 6);
     } 

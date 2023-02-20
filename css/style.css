@@ -120,6 +120,21 @@ ul{
     border: 2px solid orange;
 }
 
+/* SEZIONE 5 */
+.col-di2-larga{
+    width: 100%;
+    padding: 1em;
+
+    /* debug */
+    border: 2px solid orange;
+}
+.col-di2-stretta{
+    width: 100%;
+    padding: 1em;
+
+    /* debug */
+    border: 2px solid orange;
+}
 
 
 /* DEBUG */
