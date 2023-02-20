@@ -31,4 +31,7 @@
         width: 1200px;
         margin: 0 auto;
     }
+    .col{
+        width: calc(100% / 5 - (1em / 5));
+    }
 }
