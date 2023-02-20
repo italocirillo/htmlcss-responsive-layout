@@ -1,6 +1,14 @@
 /*TABLET*/
 @media screen and (min-width: 768px){
-    
+    .contenitore{
+        width: 95%;
+    }
+    .col{
+        width: calc(100% / 3 - (1em / 3));
+    }
+    .colonna-larga{
+        width: calc((100% / 3 - (1em / 3))*2);
+    }
 }
 
 /*DESKTOP*/
@@ -19,5 +27,8 @@
 
 /* LARGE DESKTOP */
 @media screen and (min-width: 1200px){
-
+    .contenitore{
+        width: 1200px;
+        margin: 0 auto;
+    }
 }

@@ -11,6 +11,16 @@ img{
     max-width: 100%;
 }
 
+/* UTILITY */
+.padding-verticale-1{
+    padding: 1em 0em;
+}
+.padding-right-1{
+    padding-right: 1em;
+}
+.padding-bottom-1{
+    padding-bottom: 1em;
+}
 
 /* COMUNE */
 .contenitore{
@@ -21,6 +31,7 @@ i{
     color: white;
     font-size: 2rem;
 }
+
 /* HEADER */
 header{
     padding: 0em 1em;
@@ -45,6 +56,7 @@ nav a{
 nav{
     display: none; 
     width: 40%;
+    
     /* debug */
     border: 1px solid red;
 }
@@ -57,12 +69,40 @@ ul{
     vertical-align: middle;
 }
 
+/* MAIN */
+
+/* GRIGLIA */
+.riga{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8em;
+}
+.col{
+    width: 100%;
+    padding: 1em;
+
+    /* debug */
+    border: 2px solid orange;
+}
+.carta{
+    background-color: #b5ddff;
+    border-radius: 5%;
+
+    /* debug */
+    height: 300px;
+}
+
+
+
+
+
+
+
 /* DEBUG */
 body{
     background-color: wheat;
 }
 .box{
-    height: 1000px;
+    height: 100px;
     border: 2px solid orange;
-    width: 10%;
 }
