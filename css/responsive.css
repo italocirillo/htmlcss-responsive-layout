@@ -1,14 +1,16 @@
 /*TABLET*/
 @media screen and (min-width: 768px){
     .contenitore{
-        width: 95%;
+        width: 100%;
+        margin: 0 auto;
     }
-    .col{
-        width: calc(100% / 3 - (1em / 3));
+    .col-di5{
+        width: calc(100% / 3 );
     }
     .colonna-larga{
-        width: calc((100% / 3 - (1em / 3))*2);
+        width: calc(100% / 3 *2);
     }
+    
 }
 
 /*DESKTOP*/
@@ -23,15 +25,18 @@
     nav{
         display: block;
     }
+    .col-di2{
+        width: calc(100% / 2);
+    }  
 }
 
 /* LARGE DESKTOP */
 @media screen and (min-width: 1200px){
     .contenitore{
-        width: 1200px;
+        width: 992px;
         margin: 0 auto;
     }
-    .col{
+    .col-di5{
         width: calc(100% / 5 - (1em / 5));
     }
 }
