@@ -22,6 +22,10 @@
     .col-di2-stretta{
         width: 20%;
     }
+    /* call to action */
+    .contenitore-piccolo-centrato{
+        width: 75%;
+    }
     
 }
 
@@ -45,6 +49,10 @@
     .col-di6{
         width: calc(100% / 3);
     } 
+    /* call to action */
+    .contenitore-piccolo-centrato{
+        width: 50%;
+    }
 }
 
 /* LARGE DESKTOP */

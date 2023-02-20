@@ -136,7 +136,17 @@ ul{
     border: 2px solid orange;
 }
 
-
+/* SEZIONE CALL TO ACTION */
+.call-to-action{
+    background-color: #9792e4;
+}
+.contenitore-piccolo-centrato{
+    width: 100%;
+    margin: 0 auto;
+    /* debug */
+    height: 500px;
+    border: 2px solid orange;
+}
 /* DEBUG */
 body{
     background-color: wheat;
