@@ -11,6 +11,10 @@
     .colonna-larga{
         width: calc(100% / 3 *2);
     }
+    /* sezione 3 */
+    .sezione3 .carta{
+        display: flex;
+    }
     /* sezione 4 */
     .col-di6{
         width: 50%;
@@ -25,6 +29,9 @@
     /* call to action */
     .contenitore-piccolo-centrato{
         width: 75%;
+    }
+    .carta{
+        height: 100%;
     }
     
 }
@@ -52,6 +59,10 @@
         padding-bottom: 2em;
         width: 50%;
     }
+    /*sezione 2*/
+    .sezione2 .contenitore{
+        width: 60%;
+    }
     /* sezione 3 */
     .col-di2{
         width: 50%;
@@ -64,7 +75,7 @@
     .contenitore-piccolo-centrato{
         width: 50%;
     }
-    .carta{
+    .carta-larga{
         height: 100%;
         display: flex;
     }
