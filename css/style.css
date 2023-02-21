@@ -10,6 +10,13 @@ li{
 img{
     max-width: 100%;
 }
+body{
+    background-color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
 
 /* UTILITY */
 .padding-verticale-1{
@@ -26,7 +33,6 @@ img{
     padding-bottom: 4em;
 }
 
-
 /* COMUNE */
 .contenitore{
     width: 100%;
@@ -35,6 +41,32 @@ img{
 i{
     color: white;
     font-size: 2rem;
+}
+.bottone{
+    color: black;
+    background-color: white;
+    padding: 0.3em 1em;
+    border-radius: 20px;
+}
+.bottone-blu{
+    background-color: #0284fd;
+    color: white;
+    padding: 0.5em 2em;
+    font-size: 1.5rem;
+}
+.bottone i{
+    font-size: 1.2rem;
+    padding-right: 0.5em;
+}
+
+/* TIPOGRAFIA */
+h1{
+    color:#0284fd;
+    padding: 1em 0em;
+}
+p{
+    font-size: 1.2rem;
+    padding-bottom: 1.5em;
 }
 
 /* HEADER */
@@ -55,20 +87,19 @@ header img{
     vertical-align: middle;
 }
 nav a{
-    text-decoration: none;
     color: white;
+    font-size: 1.3rem;
 }
 nav{
-    display: none; 
-    width: 40%;
-
-    /* debug */
-    border: 1px solid red;
+    display: none;
 }
 ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+li{
+    padding-left: 2rem;
 }
 .hamburger{
     vertical-align: middle;
@@ -84,17 +115,29 @@ ul{
 .col-di5{
     width: 100%;
     padding: 1em;
-
-    /* debug */
-    border: 2px solid orange;
 }
+/* Carte */
 .carta{
     background-color: #b5ddff;
     border-radius: 5%;
-
-    /* debug */
-    height: 300px;
 }
+.carta-larga{
+    padding-left: 2em;
+    padding-top: 1.5em;
+}
+.contenitore-immagine{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.icona-grande{
+    font-size: 5rem;
+    color: #0284fd;
+}
+.contenitore-icona{
+    text-align: center;
+}
+
 
 /*SEZIONE 2*/
 .sezione2{
@@ -151,10 +194,6 @@ ul{
 /* FOOTER */
 footer{
     background-color: #333333;
-}
-/* DEBUG */
-body{
-    background-color: wheat;
 }
 .box{
     height: 100px;

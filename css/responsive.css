@@ -41,6 +41,17 @@
     nav{
         display: block;
     }
+    /*sezione 1*/
+     /* contenitore grande */
+     .contenitore-immagine{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 50%;
+     }
+     .contenitore-paragrafo{
+        padding-bottom: 2em;
+        width: 50%;
+    }
     /* sezione 3 */
     .col-di2{
         width: 50%;
@@ -53,6 +64,10 @@
     .contenitore-piccolo-centrato{
         width: 50%;
     }
+    .carta{
+        height: 100%;
+        display: flex;
+    }
 }
 
 /* LARGE DESKTOP */
@@ -61,12 +76,4 @@
         width: 992px;
         margin: 0 auto;
     }
-    /* sezione 2 */
-    .col-di5{
-        width: calc(100% / 5 - (1em / 5));
-    }
-    /* sezione 5 */
-    .col-di6{
-        width: calc(100% / 6);
-    } 
 }
