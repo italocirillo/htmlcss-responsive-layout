@@ -225,9 +225,37 @@ li{
 .col-di6{
     width: 100%;
     padding: 1em;
-
-    /* debug */
-    border: 2px solid orange;
+}
+.sezione-benefits .carta{
+    background-color: white;
+    text-align: inherit;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+.sezione-benefits h2{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 1em;
+}
+.sezione-benefits h3{
+    color: #9792e4;
+    font-size: 3rem;
+}
+.sezione-benefits h4{
+    color: #9792e4;
+    font-size: 2rem;
+    padding: 0.5em 0em;
+}
+.sezione-benefits p{
+    color: gray;
+    font-size: 1rem;
+    padding: 1em 0em;
+}
+.sezione-benefits .bottone-cerchio-viola{
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 30px;
 }
 
 /* SEZIONE 5 */

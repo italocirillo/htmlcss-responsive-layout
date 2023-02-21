@@ -30,7 +30,8 @@
     .contenitore-piccolo-centrato{
         width: 75%;
     }
-    .carta{
+    .sezione1 .carta,
+    .sezione-benefits .carta{
         height: 100%;
     }
     
